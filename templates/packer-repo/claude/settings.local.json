@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(packer:*)",
+      "Bash(openstack:*)",
+      "Bash(tailscale:*)",
+      "Bash(ssh:*)",
+      "Bash(cloud-init:*)"
+    ]
+  }
+}

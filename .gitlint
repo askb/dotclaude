@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2025 Anil Belur <askb23@gmail.com>
+[general]
+ignore=body-is-missing
+contrib=contrib-title-conventional-commits
+
+[title-max-length]
+line-length=72
+
+[title-min-length]
+min-length=10
+
+[body-max-line-length]
+line-length=120

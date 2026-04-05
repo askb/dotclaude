@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn:*)",
+      "Bash(jenkins-jobs:*)",
+      "Bash(git review:*)",
+      "Bash(tox:*)",
+      "WebFetch(domain:git.opendaylight.org)",
+      "WebFetch(domain:jenkins.opendaylight.org)"
+    ]
+  }
+}

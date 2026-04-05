@@ -1,0 +1,28 @@
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2025 Anil Belur <askb23@gmail.com>
+
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: *.json
+Copyright: 2025 Anil Belur <askb23@gmail.com>
+License: Apache-2.0
+
+Files: *.json.example
+Copyright: 2025 Anil Belur <askb23@gmail.com>
+License: Apache-2.0
+
+Files: DCO
+Copyright: 2004, 2006 The Linux Foundation and its contributors
+License: Apache-2.0
+
+Files: templates/**/settings.local.json
+Copyright: 2025 Anil Belur <askb23@gmail.com>
+License: Apache-2.0
+
+Files: LICENSE
+Copyright: 2025 Anil Belur <askb23@gmail.com>
+License: Apache-2.0
+
+Files: LICENSES/*.txt
+Copyright: 2025 Anil Belur <askb23@gmail.com>
+License: Apache-2.0

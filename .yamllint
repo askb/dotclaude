@@ -1,0 +1,23 @@
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2025 Anil Belur <askb23@gmail.com>
+---
+extends: default
+
+rules:
+  comments:
+    min-spaces-from-content: 1
+  comments-indentation: disable
+  document-start: disable
+  empty-lines:
+    max: 2
+    max-end: 0
+    max-start: 0
+  indentation:
+    spaces: 2
+    indent-sequences: true
+  line-length:
+    max: 220
+    level: warning
+  truthy:
+    allowed-values: ["true", "false", "on"]
+    check-keys: false

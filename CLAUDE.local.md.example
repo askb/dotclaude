@@ -1,0 +1,14 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- SPDX-FileCopyrightText: 2025 Anil Belur <askb23@gmail.com> -->
+# Local Claude Instructions (Personal — Not Committed)
+
+## Machine-Specific Notes
+
+- Home directory: /home/YOUR_USER
+- Git repos: ~/git/
+- Docs: ~/git/docs-mvp/
+
+## Personal Preferences
+
+- Preferred model: opus
+- Effort level: high

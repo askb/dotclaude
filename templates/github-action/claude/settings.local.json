@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(actionlint:*)",
+      "Bash(act:*)",
+      "Bash(gh run:*)",
+      "Bash(gh workflow:*)",
+      "Bash(gh pr:*)"
+    ]
+  }
+}

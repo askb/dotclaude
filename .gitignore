@@ -1,0 +1,39 @@
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2025 Anil Belur <askb23@gmail.com>
+
+# Node modules (prettier cache)
+node_modules/
+
+# Machine-specific config (never commit)
+*.local.*
+settings.local.json
+.credentials.json
+
+# Allow example files and templates to be committed
+!*.local.*.example
+!*.example
+!templates/**/settings.local.json
+
+# Claude session data
+sessions/
+cache/
+backups/
+file-history/
+shell-snapshots/
+paste-cache/
+session-env/
+tasks/
+todos/
+downloads/
+debug/
+history.jsonl
+statsig/
+policy-limits.json
+remote-settings.json
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh run view:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh workflow run:*)",
+      "Bash(openstack:*)",
+      "Bash(packer:*)",
+      "Bash(tailscale:*)",
+      "WebFetch(domain:git.opendaylight.org)",
+      "WebFetch(domain:jenkins.opendaylight.org)"
+    ]
+  },
+  "enableAllProjectMcpServers": true
+}
