@@ -1,6 +1,9 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 <!-- SPDX-FileCopyrightText: 2025 Anil Belur <askb23@gmail.com> -->
 
+![CI](https://github.com/askb/dotclaude/actions/workflows/ci.yaml/badge.svg)
+![License](https://img.shields.io/github/license/askb/dotclaude)
+
 # dotclaude
 
 Personal [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
@@ -183,7 +186,24 @@ everything every turn.
 
 Removes installed symlinks/copies. Preserves personal `.local` files.
 
+## Agentic Workflows
+
+This repository uses [GitHub Agentic Workflows](https://github.com/github/gh-aw)
+(`gh aw`) to automate repository maintenance with AI-powered agents:
+
+| Workflow | Trigger | Description |
+|----------|---------|-------------|
+| [Issue Triage](.github/workflows/issue-triage.md) | Issue opened/edited | Labels issues based on content analysis |
+| [PR Review](.github/workflows/pr-review.md) | PR opened/updated | Reviews PRs for SPDX headers, shellcheck, and standards |
+| [Docs Sync](.github/workflows/docs-sync.md) | Weekly (Monday) | Verifies README directory tree matches repo structure |
+| [Health Report](.github/workflows/health-report.md) | Monthly (1st) | Generates repository health assessment |
+
+Workflows are defined as markdown files in `.github/workflows/` and compiled
+to `.lock.yml` files via `gh aw compile`.
+
 ## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 1. Fork the repository
 2. Create a feature branch

@@ -26,3 +26,19 @@ License: Apache-2.0
 Files: LICENSES/*.txt
 Copyright: 2025 Anil Belur <askb23@gmail.com>
 License: Apache-2.0
+
+Files: .vscode/*.json
+Copyright: 2025 Anil Belur <askb23@gmail.com>
+License: Apache-2.0
+
+Files: .github/agents/*.md
+Copyright: 2025 Anil Belur <askb23@gmail.com>
+License: Apache-2.0
+
+Files: .github/workflows/*.lock.yml
+Copyright: 2025 Anil Belur <askb23@gmail.com>
+License: Apache-2.0
+
+Files: .github/workflows/agentics-maintenance.yml
+Copyright: 2025 Anil Belur <askb23@gmail.com>
+License: Apache-2.0
